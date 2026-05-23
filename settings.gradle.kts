@@ -21,3 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "My Application"
 include(":app")
+include(":libmpv-android")
+project(":libmpv-android").projectDir = file("libmpv-android")
